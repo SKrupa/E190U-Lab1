@@ -22,7 +22,7 @@ Since I wanted to use far more buttons than there were digital pins on the Ardui
 
 ![](https://raw.githubusercontent.com/SKrupa/E190U-Lab1/master/schemeit-project.png)
 
-![](https://raw.githubusercontent.com/SKrupa/E190U-Lab1/master/unnamed.jpg)
+
 
 #Testing Methodology
 
@@ -34,9 +34,19 @@ For the 6 buttons tied to the analog pin, I printed out the analog values for an
 
 #Results and Discussion
 
+All of the required tasks were performed since there are at leats 6 buttons, 1 switch, and 2 joysticks. The biggest flaw in the design is the incorrect pullup resistor value for the DAC. This is easily changed since this resistor value is simply place in the breadboard. I did not replace it since that would require gathering all of the required data to create another analog to digital mapping. Since the controller if functional with this flaw, I chose to leave the incorrect pulldown resistor as is.
 
+There were also a couple problems with the construction. I could not mill out the holes for the joystick since the conroller was too thin and oddly shaped to clamp down properly. Instead, I chose to whittle the holes into the wood. This caused some of the wood near the edges to break off. I fixed this on the left analog stick by gluing a properly sized piece of wood in its place, but I left the right side as is since there was only minor damage.
+
+The directional pad was placed too far towards the center of the controller, making it slightly uncomfortable to use. However, this was not realized until after they had been epoxied on, making it too late to fix the problem.
+
+Since I had to place my Arduino on the underside of the controller due to space restrictions, there are a lot of wires running across the controller. This could become a problem as the controller suffers general wear and tear. Currently there is no protection in place for the wires so connections are prone to damage as the wires get pulled. One solution to this problem would be to size the wires to be tight to the board and then to apply a light layer of epoxy on the top of the wires. I refrained from doing this untill lab 2 is finished in case I discover some other problem that would require a reconfiguration of the wires.
+
+![](https://raw.githubusercontent.com/SKrupa/E190U-Lab1/master/unnamed.jpg)
 
 #Conclusions
+
+The final product resembles an xBox controller, but is about 30% wider and slightly thicker. It feels fairly comfortable to hold and aside fromt the d-pad, all of the buttons are easy to use. The wires are messy, but are all routed through the center of the controller so the do not get in the way of gameplay.  
 
 I spent about 2 hours constructing the wooden controller profile and about 30 minutes assembling the buttons on the board and soldering all the connections. Finally, I spend about 30 minutes testing connections and functionality.
 
